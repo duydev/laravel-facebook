@@ -1,5 +1,7 @@
 <?php
 
+require_once '../vendor/facebook/php-sdk/src/Facebook/autoload.php';
+
 return [
 
     /*
@@ -201,7 +203,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Facebook' => Facebook\Facebook::class,
     ],
 
 ];
